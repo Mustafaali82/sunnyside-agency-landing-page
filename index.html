@@ -1,12 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <nav class="nav">
+          <ul>
+            <img class="logo" src="images/logo.svg" alt="" />
+            <li class="about">About</li>
+            <li class="services">Services</li>
+            <li class="projects">Project</li>
+            <li class="contact">CONTACT</li>
+          </ul>
+        </nav>
+      </header>
+      <div class="heading-section">
+        <h1 class="heading1">WE ARE CREATIVES</h1>
+        <a href="#about"
+          ><img src="images/icon-arrow-down.svg" alt="" class="img1"
+        /></a>
+      </div>
+    </section>
+
+    <section class="abo" id="about">
+      <div class="image-box">
+        <div class="about-heading-box">
+          <h1 class="heading2">Transform your brand</h1>
+          <p class="paragraph1">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a href="" class="a1">Learn More</a>
+        </div>
+        <div class="image-s">
+          <img src="images/desktop/image-transform.jpg" alt="" />
+        </div>
+      </div>
+
+      <div style="flex-direction: row-reverse" class="image-box">
+        <div style="position: relative; right: 106px" class="about-heading-box">
+          <h1 class="heading2">Stand out to the right audience</h1>
+          <p class="paragraph1">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a style="border-bottom: 5px solid #ff7062" href="" class="a1"
+            >Learn More</a
+          >
+        </div>
+        <div style="margin-right: 129px; margin-top: -4px" class="image-s">
+          <img src="images/desktop/image-stand-out.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="project">
+      <div class="project-1">
+        <h1 class="heading-project">Graphic design</h1>
+        <p class="paragraph-project">
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captures potential clients’ attention.
+        </p>
+      </div>
+      <div class="project-2">
+        <h1 class="heading-project">Photography</h1>
+        <p class="paragraph-project">
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+        </p>
+      </div>
+    </section>
+
+    <section class="client">
+      <h1 class="client-heading">CLIENT TESTIMONALS</h1>
+      <section class="client-list">
+        <div class="name1">
+          <img src="images/image-emily.jpg" alt="" class="n-img" />
+          <p class="paragraph-project p">
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <h3>Emily R.</h3>
+          <span> Marketing Director</span>
+        </div>
+        <div class="name1">
+          <img src="images/image-thomas.jpg" alt="" class="n-img" />
+          <p class="paragraph-project p">
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <h3>Thomas S.</h3>
+          <span> Chief Operating Officer</span>
+        </div>
+        <div class="name1">
+          <img src="images/image-jennie.jpg" alt="" class="n-img" />
+          <p class="paragraph-project p">
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <h3>Jennie F.</h3>
+          <span> Business Owner</span>
+        </div>
+      </section>
+    </section>
+
+    <section class="image-main-section">
+      <img src="images/desktop/image-gallery-cone.jpg" alt="" class="image-main-sec">
+      <img src="images/desktop/image-gallery-orange.jpg" alt="" class="image-main-sec">
+      <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" class="image-main-sec">
+      <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="" class="image-main-sec">
+    </section>
+
+    <section class="footer">
+      <img style="    width: 155px;" src="images/logo.svg" alt="">
+      <div class="span-section">
+        <li style="color: #2C7566;">About</li>
+        <li style="color: #2C7566;">Services</li>
+        <li style="color: #2C7566;">Project</li>
+      </div>
+      <di class="image-section-logo">
+        <img class="logo-section" src="images/icon-facebook.svg"/>
+        <img class="logo-section" src="images/icon-instagram.svg"/>
+        <img class="logo-section" src="images/icon-twitter.svg"/>
+        <img class="logo-section" src="images/icon-pinterest.svg"/>
+      </di>
+    </section>
+  </body>
 </html>

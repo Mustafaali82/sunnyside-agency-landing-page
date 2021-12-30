@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */
+/* Hero Section Styling Starts */
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */
+
+.main {
+  background-image: url(images/desktop/image-header.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 60px;
+  margin-top: 25px;
+}
+
+li {
+  margin-top: 25px;
+  margin-right: 47px;
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  font-family: "Barlow", serif;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+li:hover {
+  color: black;
+  transition: 0.5s;
+}
+.contact {
+  background-color: white;
+  color: black;
+  padding-right: 27px;
+  padding-left: 27px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 29px;
+  font-family: "Fraunces", sans-serif;
+  font-size: 14px;
+}
+
+.contact:hover {
+  background-color: #ffffff66;
+  color: white;
+  transition: 1s;
+}
+
+.heading-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.heading1 {
+  font-size: 66px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.img1 {
+  margin-top: 70px;
+}
+
+/* Hero Section Styling Ends */
+
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */
+/* About Section Styling Starts */
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */
+
+.image-box {
+  display: flex;
+  align-items: center;
+}
+
+.about-heading-box {
+  margin-left: 80px;
+}
+
+.heading2 {
+  font-size: 40px;
+  font-family: "Fraunces", sans-serif;
+  width: 400px;
+}
+
+.paragraph1 {
+  width: 468px;
+  font-family: "Barlow";
+  font-weight: 500;
+  margin-top: 15px;
+  line-height: 28px;
+  font-size: 19px;
+  color: #a3a3a3;
+}
+
+.image-s img {
+  width: 679px;
+  margin-left: 122px;
+}
+
+.a1 {
+  position: relative;
+  top: 30px;
+  font-size: 20px;
+  color: black;
+  border-radius: 62px;
+  font-family: "Fraunces";
+  text-decoration: none;
+  border-bottom: 5px solid #ffd101;
+}
+
+/* About Section Styling Ends */
+
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */
+/* Project Section Styling Starts */
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */
+
+.project {
+    display: flex;
+    margin-top: -4px;
+}
+
+.project-1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 49.5vw;
+    height: 80vh;
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    flex-direction: column;
+}
+
+.project-2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 50vw;
+    height: 80vh;
+  background-color: red;
+  background-image: url("images/desktop/image-photography.jpg");
+  flex-direction: column;
+}
+
+.paragraph-project{
+    width: 399px;
+    text-align: center;
+    font-family: 'Barlow';
+    font-weight: 400;
+    line-height: 29px;
+    font-size: 19px;
+    padding-bottom: 40px;
+}
+
+.heading-project{
+    font-size: 33px;
+    font-family: 'Fraunces' ,sans-serif;
+    padding-bottom: 12px;
+}
+
+/* Project Section Styling Ends */
+
+
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */
+/* Client Section Styling Starts */
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */
+
+.client-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.name1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.n-img{
+    width: 86px;
+    border-radius: 57px;
+}
+
+.p{
+  font-size: 18px;
+}
+
+h3{
+    font-family: 'Fraunces' ,sans-serif;
+}
+
+span{
+    margin-top: 10px;
+    color: rgb(146, 146, 146);
+    font-family: 'Barlow' ,serif;
+}
+
+.client-heading{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: 'Fraunces' ,sans-serif;
+    color: gray;
+}
+
+.image-main-section{
+    display: flex;
+}
+
+.image-main-sec{
+    width: 337px;
+}
+
+/* Client Section Styling Ends */
+
+
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */
+/* Footer Section Styling Starts */
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */
+
+.footer{
+    background-color: #90D4C5;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.span-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+}
+
+.image-section-logo{
+    margin-top: 30px;
+}
+
+.logo-section{
+    padding: 13px;
+}
+
+.span-section li:hover{
+    color: white !important;
+}
+
+/* Footer Section Styling Ends */
