@@ -269,6 +269,11 @@ span{
     color: white !important;
 }
 
+.logo-section:hover{
+  filter: brightness(12.5);
+  transition: 1s;
+}
+
 /* Footer Section Styling Ends */
 
 
