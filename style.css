@@ -15,6 +15,10 @@
   background-position: center;
 }
 
+.humburger{
+  display: none;
+}
+
 ul {
   display: flex;
   align-items: center;
@@ -154,7 +158,6 @@ li:hover {
     align-items: center;
     width: 50vw;
     height: 80vh;
-  background-color: red;
   background-image: url("images/desktop/image-photography.jpg");
   flex-direction: column;
 }
@@ -267,3 +270,135 @@ span{
 }
 
 /* Footer Section Styling Ends */
+
+
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */ /* /* /* /* /* /* /* /* /* /* */
+        /* Mobile Resposive Hero Section Section Styling Starts */
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */ /* /* /* /* /* /* /* /* /* /* */
+
+@media screen and  (max-width: 731px) {
+  .main{
+    background-size: cover;
+    background-position: center;
+    height: 84vh;
+  }
+
+  li{
+    display: none;
+  }
+
+   .logo{
+    margin-left: 16px;
+    width: 132px;
+   }
+
+   .heading1{
+    font-size: 44px;
+    text-align: center;
+   }
+
+   .img1{
+    margin-top: 85px;
+   }
+
+   /* about */
+
+   .image-box{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+   .image-s img {
+    background-size: cover;
+    width: 100%;
+    margin-left: 0px;
+   }
+
+   .heading2{
+    margin-top: 75px;
+    text-align: center;
+   }
+
+   .paragraph1{
+    width: 361px;
+    text-align: center;
+    margin-left: 27px;
+    color: #777;
+    font-weight: 500;
+    line-height: 34px
+   }
+
+   .about-heading-box{
+     margin-left: 0px;
+   }
+
+   .a1{
+    margin-left: 148px;
+    top: 10px;
+   }
+
+   .im{
+    display: flex;
+    flex-direction: column-reverse !important;
+   }
+
+   .i{
+    width: 542px !important;
+    height: 402px;
+    margin-top: 65px;
+   }
+
+   .b{
+     right: 0 !important;
+   }
+
+   .project{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .project-1{
+     width: 100vw;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+
+   .project-2{
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -59px;
+  }
+
+  .client-list{
+    display: flex;
+flex-direction: column;
+height: 110vh;
+  }
+
+  .name1{
+    padding-bottom: 11px;
+  }
+
+  .image-main-section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-main-sec{
+    width: 100%;
+  }
+
+  .footer{
+    height: 55vw;
+  }
+
+  .client-heading{
+    padding-bottom: 35px;
+    font-size: 26px;
+  }
+  span{
+    padding-bottom: 30px;
+  }
+}
