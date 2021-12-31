@@ -278,7 +278,7 @@ span {
 /* Mobile Resposive Hero Section Section Styling Starts */
 /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */ /* /* /* /* /* /* /* /* /* /* */
 
-@media screen and (max-width: 731px) {
+@media screen and (max-width: 767px) {
   .main {
     background-size: cover;
     background-position: center;
@@ -347,7 +347,7 @@ span {
   .i {
     width: 542px !important;
     height: 402px;
-    margin-top: 65px;
+    margin-top: 100px;
   }
 
   .b {
@@ -355,7 +355,7 @@ span {
   }
 
   .project {
-    margin-top: 30px;
+    margin-top: 65px;
     display: flex;
     flex-direction: column;
   }
@@ -367,10 +367,11 @@ span {
   }
 
   .project-2 {
+    margin-top: -59px;
     width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
-  }
+  } 
 
   .client-list {
     display: flex;
@@ -383,13 +384,14 @@ span {
   }
 
   .image-main-section {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 75px;
   }
 
   .image-main-sec {
-    width: 100%;
+    width: 206px;
+    height: 200px;
   }
 
   .footer {
@@ -397,10 +399,20 @@ span {
   }
 
   .client-heading {
-    padding-bottom: 70px;
+    padding-bottom: 115px;
     font-size: 26px;
+    letter-spacing: 3px;
+    color: #c9c9c9;
   }
   span {
+    padding-bottom: 30px;
+  }
+
+  .p2{
+    padding-bottom: 80px;
+  }
+
+  .n-img{
     padding-bottom: 30px;
   }
 }
